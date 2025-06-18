@@ -3,6 +3,7 @@ import Root from "./layouts/Root";
 import Home from "./pages/Home";
 import RecoilHome from "./pages/RecoilHome";
 import ZustandHome from "./pages/ZustandHome";
+import { RecoilRoot } from "recoil";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,9 @@ const router = createBrowserRouter([
 const App = () => {
   return (
     <>
-      <RouterProvider router={router} />
+      <RecoilRoot>
+        <RouterProvider router={router} />
+      </RecoilRoot>
     </>
   );
 };
