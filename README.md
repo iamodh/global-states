@@ -13,6 +13,7 @@ React 19.1.0과 TypeScript를 기반으로 개발되었습니다.
 - **Recoil**
 - **Zustand**
 - **ContextAPI**
+- **Redux**
 - **React-Syntax-Highlighter**: 코드 시각화
 
 ## 🖥️ 주요 기능
