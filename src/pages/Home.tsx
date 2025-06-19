@@ -11,6 +11,8 @@ export default function Home() {
       <details>
         <summary>확인하기</summary>
         <ul>
+          <li>0.2.1 - 코드 확인하기 기능 추가</li>
+          <li>0.2.0 - zustand 페이지 추가</li>
           <li>
             0.1.0 - recoil 페이지 추가 (React 19버전과 호환성 문제로 동작 안 함)
           </li>
