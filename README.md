@@ -6,12 +6,13 @@ React 19.1.0과 TypeScript를 기반으로 개발되었습니다.
 🔗 [배포 링크 보기](https://iamodh.github.io/global-states/)
 
 ## ✅ 주요 목적
-- Recoil과 Zustand의 사용법 및 차이점 비교
+- 상태관리 라이브러리들의 사용법 및 차이점 비교
 - 상태 관리 방식에 따른 구조 및 코드 흐름 이해
 
 ## 🧩 사용한 라이브러리
 - **Recoil**
 - **Zustand**
+- **ContextAPI**
 - **React-Syntax-Highlighter**: 코드 시각화
 
 ## 🖥️ 주요 기능
