@@ -17,6 +17,9 @@ export default function Root() {
           <li>
             <Link to="/context-api">ContextAPI</Link>
           </li>
+          <li>
+            <Link to="/redux">Redux</Link>
+          </li>
         </ul>
       </nav>
       <Outlet />

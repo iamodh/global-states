@@ -5,6 +5,9 @@ import { RecoilRoot } from "recoil";
 import Recoil from "./pages/Recoil";
 import Zustand from "./pages/Zustand";
 import MyApp from "./pages/ContextAPI";
+import CounterButtonContainer from "./pages/Redux";
+import { Provider } from "react-redux";
+import store from "./libs/redux/store/store";
 
 const router = createBrowserRouter(
   [
@@ -16,6 +19,7 @@ const router = createBrowserRouter(
         { path: "recoil", element: <Recoil /> },
         { path: "zustand", element: <Zustand /> },
         { path: "context-api", element: <MyApp /> },
+        { path: "redux", element: <CounterButtonContainer /> },
       ],
     },
   ],
@@ -29,7 +33,9 @@ const App = () => {
   return (
     <>
       <RecoilRoot>
-        <RouterProvider router={router} />
+        <Provider store={store}>
+          <RouterProvider router={router} />
+        </Provider>
       </RecoilRoot>
     </>
   );

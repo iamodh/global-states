@@ -11,6 +11,7 @@ export default function Home() {
       <details>
         <summary>확인하기</summary>
         <ul>
+          <li>1.1.0 - ContextAPI 페이지 추가</li>
           <li>1.0.1 - 배포 자동화</li>
           <li>1.0.0 - 1차 배포</li>
           <li>0.2.1 - 코드 확인하기 기능 추가</li>
