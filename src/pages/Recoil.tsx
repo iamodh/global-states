@@ -1,5 +1,5 @@
-import { useRecoilState } from "recoil";
-import { textState } from "../libs/recoil/atom";
+// import { useRecoilState } from "recoil";
+// import { textState } from "../libs/recoil/atom";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 export default function Recoil() {
