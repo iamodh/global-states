@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Root from "./layouts/Root";
 import Home from "./pages/Home";
-import RecoilHome from "./pages/Recoil";
-import ZustandHome from "./pages/Zustand";
 import { RecoilRoot } from "recoil";
+import Recoil from "./pages/Recoil";
+import Zustand from "./pages/Zustand";
+import MyApp from "./pages/ContextAPI";
 
 const router = createBrowserRouter(
   [
@@ -12,8 +13,9 @@ const router = createBrowserRouter(
       element: <Root />,
       children: [
         { index: true, element: <Home /> },
-        { path: "recoil", element: <RecoilHome /> },
-        { path: "zustand", element: <ZustandHome /> },
+        { path: "recoil", element: <Recoil /> },
+        { path: "zustand", element: <Zustand /> },
+        { path: "context-api", element: <MyApp /> },
       ],
     },
   ],

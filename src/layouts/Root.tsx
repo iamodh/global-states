@@ -14,6 +14,9 @@ export default function Root() {
           <li>
             <Link to="/zustand">Zustand</Link>
           </li>
+          <li>
+            <Link to="/context-api">ContextAPI</Link>
+          </li>
         </ul>
       </nav>
       <Outlet />
