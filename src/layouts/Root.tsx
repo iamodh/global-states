@@ -1,9 +1,21 @@
-import { Outlet } from "react-router";
+import { Link, Outlet } from "react-router";
 
 export default function Root() {
   return (
     <div>
-      <h1>Root</h1>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/recoil">Recoil (동작 안 함)</Link>
+          </li>
+          <li>
+            <Link to="/zustand">Zustand</Link>
+          </li>
+        </ul>
+      </nav>
       <Outlet />
     </div>
   );

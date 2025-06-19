@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Root from "./layouts/Root";
 import Home from "./pages/Home";
-import RecoilHome from "./pages/RecoilHome";
-import ZustandHome from "./pages/ZustandHome";
+import RecoilHome from "./pages/Recoil";
+import ZustandHome from "./pages/Zustand";
 import { RecoilRoot } from "recoil";
 
 const router = createBrowserRouter([

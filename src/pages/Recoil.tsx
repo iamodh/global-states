@@ -1,7 +1,7 @@
 import { useRecoilState } from "recoil";
 import { textState } from "../libs/recoil/atom";
 
-export default function RecoilHome() {
+export default function Recoil() {
   const [text, setText] = useRecoilState(textState);
 
   const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {

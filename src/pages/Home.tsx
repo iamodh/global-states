@@ -7,11 +7,14 @@ export default function Home() {
         테스트 프로젝트입니다.
       </p>
       <hr />
-      <h4>버전 정보</h4>
+      <h2>버전 정보</h2>
       <details>
-        <summary>
-          0.1.0 - recoil 페이지 추가 (React 19버전과 호환성 문제로 동작 안 함)
-        </summary>
+        <summary>확인하기</summary>
+        <ul>
+          <li>
+            0.1.0 - recoil 페이지 추가 (React 19버전과 호환성 문제로 동작 안 함)
+          </li>
+        </ul>
       </details>
     </div>
   );
