@@ -9,3 +9,11 @@ React 19.1.0 버전을 사용하였습니다.
 ## 기능
 - nav 이동
 - 코드 확인하기
+
+## 사용된 기술
+`Typescript`
+`React`
+`Recoil`
+`Zustand`
+`react-syntax-highlighter`
+`Github Actions`
