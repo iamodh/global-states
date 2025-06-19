@@ -9,14 +9,14 @@ export default function CounterButtonContainer() {
     <>
       <button
         onClick={() => {
-          dispatch(counterActions.increase());
+          dispatch(counterActions.increase(5));
         }}
       >
         +
       </button>
       <button
         onClick={() => {
-          dispatch(counterActions.decrease());
+          dispatch(counterActions.decrease(5));
         }}
       >
         -
