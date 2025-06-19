@@ -13,9 +13,8 @@ https://iamodh.github.io/global-states/
 - 코드 확인하기
 
 ## 사용된 기술
-`Typescript`
-`React`
-`Recoil`
-`Zustand`
-`react-syntax-highlighter`
-`Github Actions`
+- 언어 : `Typescript`
+- 프레임워크 : `React`
+- 상태관리 : `Recoil`, `Zustand`
+- 기능구현 : `react-syntax-highlighter`
+- 배포: `gh-pages`, `Github Actions`
